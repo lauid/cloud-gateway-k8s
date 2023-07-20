@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: category-service
+  profiles:
+    active: dev
+  datasource:
+    name: datasource
+    url: jdbc:postgresql://192.168.67.9:5432/db_microservice_category
+    username: postgres
+    password: root
+    driverClassName: org.postgresql.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      max-lifetime: 1800000
+      maximum-pool-size: 50
+      minimum-idle: 10
+      pool-name: categoryServicePool
+    filters: stat
+    maxActive: 20
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxOpenPreparedStatements: 20
+  jpa:
+    hibernate:
+      ddl-auto: update
+      connection:
+        provider_class: "com.zaxxer.hikari.hibernate.HikariConnectionProvider"
+    show-sql: false
+controller:
+  api:
+    create: /api/v1/save
+    update: /api/v1/update
+    delete: /api/v1/delete
+    list: /api/v1/list
+    get: /api/v1/get/{id}

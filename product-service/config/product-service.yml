@@ -1,0 +1,49 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: product-service
+  namespace: development
+data:
+  application.yml: |-
+    spring:
+      application:
+        name: product-service
+      datasource:
+        name: datasource
+        url: jdbc:postgresql://192.168.67.9:5432/db_microservice_product
+        username: postgres
+        password: root
+        driverClassName: org.postgresql.Driver
+        type: com.zaxxer.hikari.HikariDataSource
+        hikari:
+          max-lifetime: 1800000
+          maximum-pool-size: 50
+          minimum-idle: 10
+          pool-name: categoryServicePool
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 20
+      jpa:
+        hibernate:
+          ddl-auto: update
+          connection:
+            provider_class: "com.zaxxer.hikari.hibernate.HikariConnectionProvider"
+        show-sql: false
+    feignClient:
+      category:
+        host: http://category-service
+        endpoint: /category-service/api/v1/get/{id}
+        context: categoryServiceContext
+    controller:
+      api:
+        create: /api/v1/save
