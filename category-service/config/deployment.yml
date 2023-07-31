@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: category-service
+  namespace: development
 spec:
   selector:
     matchLabels:
@@ -14,7 +15,7 @@ spec:
     spec:
       containers:
         - name: category-service
-          image: category-service:latest
+          image: docker.io/library/category-service:latest
           envFrom:
           - configMapRef:
               name: category-service
@@ -26,6 +27,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: category-service
+  namespace: development
   labels:
     app: category-service
 spec:

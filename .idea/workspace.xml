@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3f04d46-1792-4144-a53d-3233a06bdfad" name="Default Changelist" comment="" />
+    <list default="true" id="f3f04d46-1792-4144-a53d-3233a06bdfad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/config/category-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/config/category-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/config/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/config/deployment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/category-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/config/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/config/deployment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/config/gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/config/gateway-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/config/deployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/config/deployment.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/config/product-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/config/product-service.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,35 +31,34 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2SjJM64s6hA28OS3z6DlyCTYZNq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/category-service/config" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "node.js.selected.package.tslint": "(autodetect)"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/category-service/config" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.app.productservice.controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/category-service/config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.app.productservice.controller" />
     </key>
   </component>
   <component name="RunManager" selected="Application.GatewayServiceApplication">
@@ -86,6 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.app.gatewayservice.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GatewayServiceApplication" />
@@ -106,43 +128,5 @@
       <updated>1689654005742</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="533" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1689838998974">
-      <screen x="0" y="23" width="1440" height="804" />
-    </state>
-    <state x="533" y="140" key="#com.intellij.ide.util.MemberChooser/0.23.1440.804@0.23.1440.804" timestamp="1689838998974" />
-    <state x="572" y="331" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1689655210381">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state x="572" y="331" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.825@0.23.1440.825" timestamp="1689655210381" />
-    <state width="1398" height="272" key="GridCell.Tab.0.bottom" timestamp="1689844268937">
-      <screen x="0" y="23" width="1440" height="804" />
-    </state>
-    <state width="1398" height="293" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1689668001484" />
-    <state width="1398" height="272" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1689844268937" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1689662050206" />
-    <state width="1398" height="272" key="GridCell.Tab.0.center" timestamp="1689844268936">
-      <screen x="0" y="23" width="1440" height="804" />
-    </state>
-    <state width="1398" height="293" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1689668001483" />
-    <state width="1398" height="272" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1689844268936" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1689662050205" />
-    <state width="1398" height="272" key="GridCell.Tab.0.left" timestamp="1689844268935">
-      <screen x="0" y="23" width="1440" height="804" />
-    </state>
-    <state width="1398" height="293" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1689668001483" />
-    <state width="1398" height="272" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1689844268935" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1689662050205" />
-    <state width="1398" height="272" key="GridCell.Tab.0.right" timestamp="1689844268936">
-      <screen x="0" y="23" width="1440" height="804" />
-    </state>
-    <state width="1398" height="293" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1689668001484" />
-    <state width="1398" height="272" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1689844268936" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1689662050206" />
-    <state x="385" y="198" key="run.anything.popup" timestamp="1689655291765">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state x="385" y="198" key="run.anything.popup/0.23.1440.825@0.23.1440.825" timestamp="1689655291765" />
   </component>
 </project>
